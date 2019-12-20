@@ -1,0 +1,18 @@
+create database agriculturdb;
+
+
+use agriculturdb;
+create table agricultur
+(a_id int,
+a_name varchar(30),
+
+a_hector double,a_soiltype varchar(30),
+
+primary key(a_id));
+
+
+describe agricultur;
+
+
+
+select * from agriculturdb.agricultur;
